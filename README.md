@@ -32,3 +32,5 @@ export default defineConfig({
 });
 ```
 
+
+這邊我先下班了 have a good day.
