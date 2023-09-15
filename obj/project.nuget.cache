@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Cp4+UVOsfcz9n4m/9oSwfPJkcXKuEboSL0F9mG3pDAIHttvayyo+TX7xKe0LCWPJE+ZFq95B14I1xNuO0EagA==",
+  "success": true,
+  "projectFilePath": "D:\\self\\github\\razor\\RazorPagesMovie.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\V003302\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\7.0.11\\microsoft.aspnetcore.spaservices.extensions.7.0.11.nupkg.sha512",
+    "C:\\Users\\V003302\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\V003302\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "C:\\Users\\V003302\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "C:\\Users\\V003302\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
