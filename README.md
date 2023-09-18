@@ -46,10 +46,28 @@ to /Pages/Shared/_Layout.cshtml
     </div>
 ```
 下載 Microsoft.AspNetCore.SpaServices.Extensions
+<a href="https://learn.microsoft.com/zh-tw/aspnet/core/client-side/spa-services?view=aspnetcore-7.0#hot-module-replacement">SpaServices 參考文件</a>
 ```
 dotnet add package Microsoft.AspNetCore.SpaServices.Extensions
 ```
-<a href="https://learn.microsoft.com/zh-tw/aspnet/core/client-side/spa-services?view=aspnetcore-7.0#hot-module-replacement">SpaServices 參考文件</a>
+to Program.cs
+將這段```
+  app.MapRazorPages();
+```
+改成```
+  app.UseEndpoints(endpoints =>
+  {
+      endpoints.MapRazorPages();
+  });
+  
+  if (app.Environment.IsDevelopment())
+  {
+      app.UseSpa(spa =>
+      {
+          spa.UseProxyToSpaDevelopmentServer("http://localhost:5173/");
+      });
+  }
+```
 
 
 
