@@ -49,7 +49,7 @@ to /Pages/Shared/_Layout.cshtml
 ```
 dotnet add package Microsoft.AspNetCore.SpaServices.Extensions
 ```
-<a href="https://learn.microsoft.com/zh-tw/aspnet/core/client-side/spa-services?view=aspnetcore-7.0#hot-module-replacement" target="_blank">SpaServices 參考文件</a>
+<a href="https://learn.microsoft.com/zh-tw/aspnet/core/client-side/spa-services?view=aspnetcore-7.0#hot-module-replacement">SpaServices 參考文件</a>
 
 
 
