@@ -51,10 +51,9 @@ to /Pages/Shared/_Layout.cshtml
 dotnet add package Microsoft.AspNetCore.SpaServices.Extensions
 ```
 to Program.cs
-將這段```
-  app.MapRazorPages();
+將這段```app.MapRazorPages();```
+改成
 ```
-改成```
   app.UseEndpoints(endpoints =>
   {
       endpoints.MapRazorPages();
