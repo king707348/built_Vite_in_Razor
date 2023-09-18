@@ -81,3 +81,7 @@ cd 到 vite(前端資料夾)
 跑完vite後再按f5給Razor跑完就完成了
 
 ![09-18_003](https://github.com/king707348/built_Vite_in_Razor/assets/48721403/c1a1b6fb-5b82-41c6-a122-58b3d4a383b9)
+這邊我對style做些微修改
+
+Razor和Vite有各自放css、js的地方<br>
+就看個人喜好 如何管理比較好
