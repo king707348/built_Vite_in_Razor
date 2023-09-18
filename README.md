@@ -69,13 +69,17 @@ to Program.cs
 ```
 使用UseEndpoints讓他找到相對的端點
 
-最後將這段 head，加到/Pages/Shared/_Layout.cshtml
+最後將這段加到/Pages/Shared/_Layout.cshtml的head
 ```
   <environment names="Development">
   <script type="module" src="http://localhost:5173/@@vite/client"></script>
   <script type="module" defer src="http://localhost:5173/src/main.ts"></script>
   </environment>
 ```
+cd 到 vite(前端資料夾)
+```npm run dev```
+在按f5給Razor跑
+
 
 
 
