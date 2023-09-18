@@ -3,13 +3,12 @@
 接下來直接說明如何載入Vite
 
 ### setup Vite
-cd 到Razor資料夾後
-一樣是大家熟悉的 
+cd 到Razor資料夾後,一樣是大家熟悉的建立vite<br>
 這邊我是命名vite (分得清楚前後端就好)
 ```
 npm create vite@latest
 ```
-...
+開啟vite後下載
 ```
 cd vite
 npm install
