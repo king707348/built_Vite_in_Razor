@@ -17,7 +17,7 @@ cd vite
 npm install
 ```
 ### set Vite
-到vite.config.js
+to vite.config.js
 ```
 import { defineConfig } from "vite";
 import path from "path";
@@ -45,7 +45,11 @@ to /Pages/Shared/_Layout.cshtml
         </main>
     </div>
 ```
-
+下載 Microsoft.AspNetCore.SpaServices.Extensions
+```
+dotnet add package Microsoft.AspNetCore.SpaServices.Extensions
+```
+<a href="https://learn.microsoft.com/zh-tw/aspnet/core/client-side/spa-services?view=aspnetcore-7.0#hot-module-replacement">SpaServices 參考文件</a>
 
 
 
