@@ -6,11 +6,14 @@
 cd 到Razor資料夾後
 一樣是大家熟悉的 
 這邊我是命名vite (分得清楚前後端就好)
-```npm create vite@latest```
+```
+npm create vite@latest
+```
 ...
-```cd vite```
-  // run
-```npm install```
+```
+cd vite
+npm install
+```
 ### set Vite
 到vite.config.js
 ```
