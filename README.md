@@ -80,4 +80,4 @@ cd 到 vite(前端資料夾)
 ```npm run dev```
 在按f5給Razor跑
 
-<img src="../src/assets/razor.png">
+<img src="https://localhost:7059/src/assets/razor.png">
