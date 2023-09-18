@@ -2,7 +2,7 @@
 這邊拿先前已建立好的RazorPages
 接下來直接說明如何載入Vite
 <br>
-開始前可以先了解razorPage的架構
+開始前可以先了解razorPages的架構
 
 ### setup Vite
 cd 到你建立好的Razor資料夾後,一樣是前端熟悉的建立vite
@@ -45,8 +45,8 @@ to /Pages/Shared/_Layout.cshtml
         </main>
     </div>
 ```
-下載 Microsoft.AspNetCore.SpaServices.Extensions
-<a href="https://learn.microsoft.com/zh-tw/aspnet/core/client-side/spa-services?view=aspnetcore-7.0#hot-module-replacement">SpaServices 參考文件</a>
+下載 Microsoft.AspNetCore.SpaServices.Extensions<br>
+參考文獻<a href="https://learn.microsoft.com/zh-tw/aspnet/core/client-side/spa-services?view=aspnetcore-7.0#hot-module-replacement">SpaServices</a>
 ```
 dotnet add package Microsoft.AspNetCore.SpaServices.Extensions
 ```
@@ -73,11 +73,11 @@ to Program.cs
 ```
   <environment names="Development">
   <script type="module" src="http://localhost:5173/@@vite/client"></script>
-  <script type="module" defer src="http://localhost:5173/src/main.ts"></script>
+  <script type="module" defer src="http://localhost:5173/src/main.js"></script>
   </environment>
 ```
 cd 到 vite(前端資料夾)
 ```npm run dev```
-在按f5給Razor跑
+跑完vite後再按f5給Razor跑完就完成了
 
-<img src="https://localhost:7059/src/assets/razor.png">
+![09-18_003](https://github.com/king707348/built_Vite_in_Razor/assets/48721403/c1a1b6fb-5b82-41c6-a122-58b3d4a383b9)
