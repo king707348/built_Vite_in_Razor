@@ -78,6 +78,6 @@ to Program.cs
 ```
 cd 到 vite(前端資料夾)
 ```npm run dev```
-跑完後再按f5給Razor跑完就完成了
+跑完vite後再按f5給Razor跑完就完成了
 
 ![09-18_003](https://github.com/king707348/built_Vite_in_Razor/assets/48721403/c1a1b6fb-5b82-41c6-a122-58b3d4a383b9)
