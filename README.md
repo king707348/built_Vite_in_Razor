@@ -1,7 +1,8 @@
 # built_Vite_in_Razor
-這邊拿先前已建立好的RazorPages
-接下來直接說明如何載入Vite
-<br>
+建立razor
+```
+dotnet new webapp -o ur_project_name
+```
 開始前可以先了解razorPages的架構
 
 ### setup Vite
