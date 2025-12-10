@@ -18,8 +18,8 @@ cd vite
 npm install
 ```
 ### set Vite
-to vite.config.js
-build.manifest：啟用後，Vite 會生成一個 manifest.json 文件，這對於 ASP.NET Core 處理靜態資源的發佈和快取非常重要。
+to vite.config.js<br>
+build.manifest：啟用後，Vite 會生成一個 manifest.json 文件，這對於 ASP.NET Core 處理靜態資源的發佈和快取非常重要。<br>
 base: '/_content/'：如果您計劃將 Vite 產出的靜態資源放在一個特定的路徑下（例如 wwwroot/dist），則需要設定這個基底路徑，但在您的情境中，由於使用 Proxy，這不是開發時的關鍵。
 
 ```
